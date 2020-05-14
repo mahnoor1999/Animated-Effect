@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    
+
+}
+article{
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   margin: 3em 2em;
+   
+}
+.icon{
+    color: yellow;
+}
+ 
+   
+span{
+   
+    color: rgb(82, 79, 79);
+ 
+}
+span:hover {
+    color :#e94963 !important;
+
+}
+span:hover +span{
+    color:#ef8eb1 !important;
+}
+span:hover +span +span {
+    color: #fae5ee!important;
+}
+span:hover + span ~span{
+    color: #fefefe;
+}
+
+
+
